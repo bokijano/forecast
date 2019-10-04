@@ -32,7 +32,7 @@ class Temperature {
          <h2 class="city-name">${cities[arr]}
            <span onclick="getPosition(${lat}, ${long}, ${arr})" class="fa fa-angle-double-right"></span>
          </h2>
-         <img id="temp-icon" src="temperature icons/${icon}.svg" alt="no picture" />
+         <img id="temp-icon" src="../temperature icons/${icon}.svg" alt="no picture" />
          <h5 class="maxTemp"><span id="max">${tempMax} C</span><span id="text">MAX</span></h5>
          <h5 class="minTemp"><span id="min">${tempMin} C</span><span id="text">MIN</span></h5>
          
