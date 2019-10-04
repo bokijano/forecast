@@ -28,34 +28,34 @@ function load(lat, long, city, icons) {
 function iconTemperature(icon, iconTemp) {
   switch (icon) {
     case "clear-day":
-      iconTemp.src = "../temperature icons/clear-day.svg";
+      iconTemp.src = "temperature icons/clear-day.svg";
       break;
     case "clear-night":
-      iconTemp.src = "../temperature icons/clear-night.svg";
+      iconTemp.src = "temperature icons/clear-night.svg";
       break;
     case "partly-cloudy-day":
-      iconTemp.src = "../temperature icons/partly-cloudy-day.svg";
+      iconTemp.src = "temperature icons/partly-cloudy-day.svg";
       break;
     case "partly-cloudy-night":
-      iconTemp.src = "../temperature icons/partly-cloudy-night.svg";
+      iconTemp.src = "temperature icons/partly-cloudy-night.svg";
       break;
     case "cloudy":
-      iconTemp.src = "../temperature icons/cloudy.svg";
+      iconTemp.src = "temperature icons/cloudy.svg";
       break;
     case "rain":
-      iconTemp.src = "../temperature icons/rain.svg";
+      iconTemp.src = "temperature icons/rain.svg";
       break;
     case "sleet":
-      iconTemp.src = "../temperature icons/sleet.svg";
+      iconTemp.src = "temperature icons/sleet.svg";
       break;
     case "snow":
-      iconTemp.src = "../temperature icons/snow.jpg";
+      iconTemp.src = "temperature icons/snow.jpg";
       break;
     case "wind":
-      iconTemp.src = "../temperature icons/wind.jpg";
+      iconTemp.src = "temperature icons/wind.jpg";
       break;
     case "fog":
-      iconTemp.src = "../temperature icons/fog.svg";
+      iconTemp.src = "temperature icons/fog.svg";
       break;
   }
 }

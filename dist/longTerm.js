@@ -92,7 +92,7 @@ class TemperatureFirstDay {
             <div class="longForecast">
               <hr>
               <div class="firstDay">
-                <img id="temp-icon" src="../temperature icons/${icon}.svg" alt="no picture" />
+                <img id="temp-icon" src="temperature icons/${icon}.svg" alt="no picture" />
                 <div class="forecastFirst">
                   <h5 class="maxTemp">
                    <span id="max"> ${tempMax} C</span>
@@ -107,7 +107,7 @@ class TemperatureFirstDay {
               <hr>
 
               <div class="secondDay">
-                <img id="temp-icon" src="../temperature icons/${icon2}.svg" alt="no picture" />
+                <img id="temp-icon" src="temperature icons/${icon2}.svg" alt="no picture" />
                 <div class="forecastFirst">
                   <h5 class="maxTemp">
                    <span id="max"> ${tempMax2} C</span>
@@ -122,7 +122,7 @@ class TemperatureFirstDay {
               <hr>
 
               <div class="thirdDay">
-                <img id="temp-icon" src="../temperature icons/${icon3}.svg" alt="no picture" />
+                <img id="temp-icon" src="temperature icons/${icon3}.svg" alt="no picture" />
                 <div class="forecastFirst">
                   <h5 class="maxTemp">
                    <span id="max"> ${tempMax3} C</span>
