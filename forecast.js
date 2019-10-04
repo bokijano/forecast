@@ -28,7 +28,7 @@ function getPosition(lat, long, arr) {
         ${convertUnix(data.daily.data[0].time)}`;
       let result = `
         <div class="summ"> 
-        <img id="iconCurr" src="../temperature icons/${icon}.svg" />
+        <img id="iconCurr" src="temperature icons/${icon}.svg" />
         <h4 id="summ-text">${summary}</h4> 
        </div> 
         <h5 class="currentlyTemp">${temperatureC} C</h5>
@@ -54,7 +54,7 @@ function getPosition(lat, long, arr) {
       
         <div class="first-hour">
            <h5 class="hour-time">${convertUnixHour(hour.time)} h</h5>
-           <img id="hourly-icon" src="../temperature icons/${
+           <img id="hourly-icon" src="temperature icons/${
              hour.icon
            }.svg" alt="no picture" />
            <h5 class="temp-celsius">${toCelsius(
@@ -80,7 +80,7 @@ function getPosition(lat, long, arr) {
           <div class="day-temp">
             <h5>${convertUnix(long.time)}</h5>
             <div class="long-temp">
-            <img id="long-icon" src="../temperature icons/${
+            <img id="long-icon" src="temperature icons/${
               long.icon
             }.svg" alt="no picture" />
             <p class="long-max">
