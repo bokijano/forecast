@@ -4,7 +4,7 @@
   "description": "",
   "main": "dailyTemperature.js",
   "scripts": {
-    "deploy": "gh-pages -d build"
+    "deploy": "gh-pages -d dist"
   },
   "keywords": [],
   "author": "",
